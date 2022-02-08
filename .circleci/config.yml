@@ -12,7 +12,7 @@ jobs:
       - run:
           name: Build docker image
           command: |
-            docker build
+            docker build hoge
       - deploy:
           name: Push docker image to DockerHub
           command: |
