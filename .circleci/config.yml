@@ -12,7 +12,7 @@ jobs:
       - run:
           name: Build docker image
           command: |
-            docker build hoge
+            docker build -t your_nginx .
       - deploy:
           name: Push docker image to DockerHub
           command: |
